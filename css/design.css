@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+/*
+ font-family: 'Open Sans', sans-serif;
+ */
+
+header{
+	width: 100%;
+	padding: 30px 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	line-height: 80px;
+	margin-left: 10px;
+}
+.menu ul li a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	color: #211d38;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+.menu-btn{
+	margin-top: 18px;
+}
+.menu-btn button{
+	background-color: #dd5353;
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 18px;
+	padding-right: 18px;
+	border: none;
+	font-size: 12px;
+	border-radius: 4px;
+	font-weight: bold; 
+}
+.menu ul {
+    display: block;
+    list-style-type: disc;
+}
+.menu, .menu-btn{
+	flex-basis: 50%;
+}
+/*
+banner content css
+*/
+.banner{
+	width: 100%;
+}	
+.banner-content{
+	display: flex;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.banner-right img{
+	width: 100%;
+	height: auto;
+}
+.banner-left h2{
+	color: #292640;
+	font-size: 45px;
+	line-height: 50px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 40px;
+}
+.banner-left p{
+	color: #b3b5c2;
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 28px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.banner-left{
+	text-align: left;
+}
+.banner-left i{
+	padding-top: 10px;
+	color: #b3a6a6;
+}
+
+.demo{
+	width: 100%;
+	padding-top: 140px;
+}
+
+.up h3{
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #271f36;
+	line-height: 60px;
+	text-align: center;
+
+}
+.up p{
+	font-family: 'Lobster', cursive;
+	font-size: 22px;
+	color: #b5b5c2;
+	text-align: center;
+	padding-bottom: 16px;
+}
+.down{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+.demo-picture1 h4{
+	    margin-top: 20px;
+        padding: 0;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+	    font-size: 16px;
+	    color:  #5a5454;
+}
+.demo-picture2 h4{
+	    margin-top: 20px;
+        padding: 0;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+	    font-size: 16px;
+	    color:  #5a5454;
+}
+.demo-picture3 h4{
+	    margin-top: 20px;
+        padding: 0;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+	    font-size: 16px;
+	    color:  #5a5454;
+}
+.demo-picture4 h4{
+	    margin-top: 20px;
+        padding: 0;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+	    font-size: 16px;
+	    color:  #5a5454;
+}
+
+
+
+.features{
+	width: 100%;
+	padding-top: 250px;
+	padding-bottom: 50px;
+}
+
+.feature-content{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.upper h6{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color:  #0f2656;
+	padding-bottom: 8px; 
+}
+.upper p{
+	font-family: 'Lobster', cursive;
+	font-size: 14px;
+	color: #5a5454;
+	text-align: center;
+	padding-bottom: 16px;
+}
+.item-1 i, .item-2 i, .item-3 i, .item-4 i, .item-5 i, .item-6 i{
+	border-radius: 100%;
+	height: 40px;
+	width: 40px;
+	color: red;
+	text-align: center;
+	line-height: 40px;
+}
+.item-1 i, .item-2 i, .item-3 i, .item-4 i, .item-5 i, .item-6 i{
+	background-color: #fbf9f9;
+}
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6{
+	background-color: #d9d9d2;
+}
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6{
+	margin: 16px;
+	border-radius: 2px;
+}
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6{
+	padding: 32px 16px;
+}
+.item-1 h6, .item-2 h6, .item-3 h6, .item-4 h6, .item-5 h6, .item-6 h6{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #0f2656;
+	margin-bottom: 10px;
+	margin-left: 16px;
+	text-align: center;
+}
+.log{
+	padding-bottom: 12px;
+    padding-left: 140px;
+}
+.item-1 p, .item-2 p, .item-3 p, .item-4 p, .item-5 p, .item-6 p{
+	font-family:  'Open Sans', sans-serif;
+	font-size: 10px;
+	color: #5a5454;
+	text-align: center;
+	padding-bottom: 16px;
+}
+.footer-part{
+	width: 100%;
+	background-color: #292640;
+	padding: 30px 0px;
+	text-align: center;
+}
+.foot-sect p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	margin-top: 50px;
+}
